@@ -9,4 +9,5 @@ int main () {
   cout << numTeaspoons << endl;
 
   int numQuarts = numTeaspoons / 192;
-  cout << "Quarts: " << endl; 
+  cout << "Quarts: ";
+  cout << numQuarts << endl;
