@@ -4,9 +4,6 @@ using namespace std;
 int main () {
   int numTeaspoons;
   cin >> numTeaspoons;
-  
-  cout << "Teaspoons: ";
-  cout << numTeaspoons << endl;
 
   int numQuarts = numTeaspoons / 192;
   cout << "Quarts: ";
