@@ -11,3 +11,12 @@ int main () {
   int numQuarts = numTeaspoons / 192;
   cout << "Quarts: ";
   cout << numQuarts << endl;
+
+  int numCups = numTeaspoons / 48;
+  cout << "Cups: ";
+  cout << numCups << endl;
+
+  int numTablespoons = numTeaspoons / 3;
+  cout << "Tablespoons: ";
+  cout << numTablespoons << endl;
+}
